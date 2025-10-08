@@ -44,7 +44,7 @@ If you go too high-level, you lose important details, necessary for the agent to
 
 Therefore, a good choice is where the agent's actions clearly affect the outcomes and the problem is not too complicated to learn from.
 
-In short: It’s not free choice — it’s about choosing the level that makes the learning and decision-making practical.
+In short: It’s not a free choice — it’s about choosing the level that makes the learning and decision-making practical.
 
 <br>
 
@@ -174,7 +174,7 @@ $$
 S - \gamma S = (1 + \gamma + \gamma^2 + ...) - (\gamma + \gamma^2 + \gamma^3 + ...)
 $$
 
-On the right hand side, all terms cancel except the first 1, leaving us with:
+On the right-hand side, all terms cancel except the first 1, leaving us with:
 
 $$
 S(1 - \gamma) = 1
@@ -245,10 +245,6 @@ Adding a constant $c$ to each reward, we get:
 
 $$
 v'_\pi(s) = \mathbb{E}_\pi \!\left[ \sum_{t=0}^\infty \gamma^t (R_{t+1} + c) \right]
-$$
-
-$$
-= \mathbb{E}_\pi \!\left[ \sum_{t=0}^\infty \gamma^t (R_{t+1} + c) \right]
 $$
 
 $$
@@ -385,7 +381,7 @@ $$
 q^*(s,putter) = -3
 $$
 
-If the ball is even further away from the green, then our first action moves us closer to the green. This is followed by driver used twice to land us on the green, followed by a putter to reach the hole in a total of $4$ strokes.
+If the ball is even further away from the green, then our first action moves us closer to the green. This is followed by a driver used twice to land us on the green, followed by a putter to reach the hole in a total of $4$ strokes.
 
 $$
 q^*(s,putter) = -4

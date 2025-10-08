@@ -19,7 +19,7 @@ $$
 
 <br>
 
-At time steps 4 and 5, a non-greedy action was selected. Therefore, it is definitely random.
+At time steps 4 and 5, a non-greedy action was selected. Therefore, those selections were definitely random.
 
 At time steps 1, 2 and 3, the action selected could've been greedy or random. Therefore, the actions are possibly random.
 
@@ -91,7 +91,7 @@ As we can see from the results above, the constant step-size agent performs bett
 
 The optimistic initial values force the agent to explore more in the start. The agent cycles through all possible actions, most of which aren't optimal actions.
 
-During this exploration, we sometimes discover optimal actions leading to a big spike. However, this is usually followed by suboptimal actions which is why we see such oscillatory behaviour.
+During this exploration, we sometimes discover optimal actions leading to a big spike. However, this is usually followed by suboptimal actions which is why we see such oscillatory behavior.
 
 <br>
 

@@ -1,8 +1,8 @@
 ### Solution 1.1
 
-Against an opponent that selects random actions, we learn a policy which can exploit the mistakes made by the opponent.
+Against an opponent that selects random actions, we learn a policy that can exploit the mistakes made by the opponent.
 
-Whereas against an opponent that also learns through self-play, we will converge to a policy where the opponent also doesn't make mistakes. Therefore, we learn a safe policy that always leads to a draw.
+Whereas against an opponent that also learns through self-play, we will converge to a policy where the opponent also does not make mistakes. Therefore, we learn a safe policy that always leads to a draw.
 
 So, yes, the policies learnt are different.
 
@@ -22,7 +22,7 @@ In practice, since the game isn't played an infinite number of times, the values
 
 ### Solution 1.3
 
-If the player only chooses the greedy action, there is a chance that it will lock into a suboptimal policy. Whereas, a nongreedy (ε-greedy) player keeps exploring and thus discovers better strategies.
+If the player only chooses the greedy action, there is a chance that it will lock into a suboptimal policy. Whereas, a non-greedy (ε-greedy) player keeps exploring and thus discovers better strategies.
 
 So, greedy play often learns worse policies than ε-greedy play because it fails to correct early mistakes.
 
