@@ -81,7 +81,7 @@ $$
 
 ### Solution 2.5
 
-![Solution 2.5](solution_2_5.png)
+![Solution 2.5](images/solution_2_5.png)
 
 As we can see from the results above, the constant step-size agent performs better than the sample average agent when the bandit is non-stationary.
 
@@ -226,4 +226,4 @@ $$
 
 ### Solution 2.11
 
-![Solution 2.11](solution_2_11.png)
+![Solution 2.11](images/solution_2_11.png)

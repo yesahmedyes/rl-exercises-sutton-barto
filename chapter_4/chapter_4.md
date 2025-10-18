@@ -204,9 +204,9 @@ Since one free car can move from location 1 to 2, the optimal policy is asymmetr
 
 Moreover, a $4$ parking surcharge creates sharp boundaries around $10$ cars, so the policy actively avoids holding more than $10$ cars at either site, which produces the visible "notches" in the contour plots.
 
-![Solution 4.7](solution_4_7_a.png)
+![Solution 4.7](images/solution_4_7_a.png)
 
-![Solution 4.7](solution_4_7_b.png)
+![Solution 4.7](images/solution_4_7_b.png)
 
 <br>
 
@@ -226,9 +226,9 @@ We can see from the plots that for $p_h = 0.25$, the results are very similar to
 
 In contrast, when $p_h = 0.55$, the odds are favorable. The gambler adopts smaller, safer bets, using the advantage to make steady progress toward the goal without taking unnecessary risks.
 
-![Solution 4.9](solution_4_9_a.png)
+![Solution 4.9](images/solution_4_9_a.png)
 
-![Solution 4.9](solution_4_9_b.png)
+![Solution 4.9](images/solution_4_9_b.png)
 
 <br>
 
