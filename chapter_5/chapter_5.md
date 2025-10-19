@@ -201,7 +201,11 @@ The value function for the first track is:
 
 Sample trajectories for the first track:
 
-<img src="images/solution_5_12_v1_1.png" width="32%"> <img src="images/solution_5_12_v1_2.png" width="32%"> <img src="images/solution_5_12_v1_3.png" width="32%">
+<center>
+<img src="images/solution_5_12_v1_1.png" width="32%">
+<img src="images/solution_5_12_v1_2.png" width="32%">
+<img src="images/solution_5_12_v1_3.png" width="32%">
+</center>
 
 The value function for the second track is:
 
@@ -209,7 +213,11 @@ The value function for the second track is:
 
 Sample trajectories for the second track:
 
-<img src="images/solution_5_12_v2_1.png" width="32%"> <img src="images/solution_5_12_v2_2.png" width="32%"> <img src="images/solution_5_12_v2_3.png" width="32%">
+<center>
+<img src="images/solution_5_12_v2_1.png" width="32%">
+<img src="images/solution_5_12_v2_2.png" width="32%">
+<img src="images/solution_5_12_v2_3.png" width="32%">
+</center>
 
 <br>
 
